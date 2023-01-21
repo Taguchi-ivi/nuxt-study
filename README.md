@@ -2,26 +2,26 @@
 
 # この練習場でやったこと
 
-- componentsの理解を深める
-- layoutの変更,違うlayoutの採用
-- 動的なサイトの作成
-- 動的にnuxt-linkを作成する
+- [x] componentsの理解を深める
+- [x] layoutの変更,違うlayoutの採用
+- [x] 動的なサイトの作成
+- [x] 動的にnuxt-linkを作成する
+- [x] componentsの親子間の通信 (props,emit?)
 
 
 # まだできていないこと
 
-- componentsの親子間の通信 (props,emit?)
-- vuexの値の取得、並びに格納
-- 動的にcomponentsを呼び出す
-- ライフサイクルの理解
-- computedで実際に機能を作ってみる
-- middlewareによるリダイレクトと状態管理
+- [] vuexの値の取得、並びに格納
+- [] 動的にcomponentsを呼び出す
+- [] ライフサイクルの理解
+- [] computedで実際に機能を作ってみる
+- [] middlewareによるリダイレクトと状態管理
 
 
 # 時間があればやりたいこと
 
-- animationの追加
-- testの練習
+- [] animationの追加
+- [] testの練習
 
 # nuxt-study
 
