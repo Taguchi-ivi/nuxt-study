@@ -1,3 +1,30 @@
+<!-- taguchi add -->
+
+# この練習場でやったこと
+
+- componentsの理解を深める
+- layoutの変更,違うlayoutの採用
+- 動的なサイトの作成
+- 動的にnuxt-linkを作成する
+
+
+# まだできていないこと
+
+- componentsの親子間の通信 (props,emit?)
+- vuexの値の取得、並びに格納
+- 動的にcomponentsを呼び出す
+- ライフサイクルの理解
+-  computedで実際に機能を作ってみる
+- middlewareによるリダイレクトと状態管理
+
+# 時間があればやりたいこと
+
+- animationの追加
+- testの練習
+- 
+
+
+
 # nuxt-study
 
 ## Build Setup
@@ -66,3 +93,6 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+
+
