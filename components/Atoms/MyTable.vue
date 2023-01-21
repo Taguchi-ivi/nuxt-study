@@ -1,5 +1,7 @@
 <template>
     <div>
+        <h1>子01:{{ userName }}</h1>
+        <my-table-button :user-name="userName"></my-table-button>
         <v-data-table
             :headers="headers"
             :items="desserts"
@@ -15,7 +17,8 @@
                 class="mx-4"
                 ></v-text-field>
             </template>
-            <template v-slot:body.append>
+            <!-- <template v-slot:body.append> -->
+            <template v-slot:[`body.append`]>
                 <tr>
                 <td></td>
                 <td>
@@ -33,7 +36,12 @@
 </template>
 
 <script>
+import MyTableButton from '~/components/Atoms/MyTableButton'
     export default {
+        props: ['user-name'],
+        components: {
+            MyTableButton
+        },
         data () {
             return {
                 search: '',
@@ -152,7 +160,8 @@
                 return value != null &&
                 search != null &&
                 typeof value === 'string' &&
-                value.toString().toLocaleUpperCase().indexOf(search) !== -1
+                value.toString().toLocaleUpperCase().includes(search) === true
+                // value.toString().toLocaleUpperCase().indexOf(search) !== -1
             },
         },
     }

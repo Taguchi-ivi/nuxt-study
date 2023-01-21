@@ -1,12 +1,12 @@
 <template>
     <v-app>
-        <HomeNav />
+        <home-nav />
         <v-main>
             <v-container>
                 <Nuxt />
             </v-container>
         </v-main>
-        <HomeFooter />
+        <home-footer />
     </v-app>
 </template>
 
@@ -17,8 +17,8 @@ import HomeFooter from '~/components/Homeview/HomeFooter';
 export default {
     name: 'default01',
     components: {
-        HomeNav,
-        HomeFooter
+        'home-nav': HomeNav,
+        'home-footer': HomeFooter
     },
     data() {
         return {

@@ -21,6 +21,7 @@ import MainDialogs from '~/components/Dialogs/MainDialogs'
 // import MainDialogs from '../Dialogs/MainDialogs.vue'
 export default {
     components: {
+        // 'main-dialogs': MainDialogs
         MainDialogs
     },
     data () {
