@@ -4,10 +4,11 @@
 
 :::note info
 やったこと
-- componentsの理解を深める
-- layoutの変更,違うlayoutの採用
-- 動的なサイトの作成
-- 動的にnuxt-linkを作成する
+
+componentsの理解を深める
+layoutの変更,違うlayoutの採用
+動的なサイトの作成
+動的にnuxt-linkを作成する
 :::
 
 
@@ -15,20 +16,21 @@
 
 :::note warn
 できていないこと
-- componentsの親子間の通信 (props,emit?)
-- vuexの値の取得、並びに格納
-- 動的にcomponentsを呼び出す
-- ライフサイクルの理解
--  computedで実際に機能を作ってみる
-- middlewareによるリダイレクトと状態管理
 
+componentsの親子間の通信 (props,emit?)
+vuexの値の取得、並びに格納
+動的にcomponentsを呼び出す
+ライフサイクルの理解
+computedで実際に機能を作ってみる
+middlewareによるリダイレクトと状態管理
 :::
 
 # 時間があればやりたいこと
 :::note warn
 時間があればしたいこと
-- animationの追加
-- testの練習
+
+animationの追加
+testの練習
 :::
 
 
