@@ -11,17 +11,17 @@
 
 # まだできていないこと
 
-- [] vuexの値の取得、並びに格納
-- [] 動的にcomponentsを呼び出す
-- [] ライフサイクルの理解
-- [] computedで実際に機能を作ってみる
-- [] middlewareによるリダイレクトと状態管理
+- [ ] vuexの値の取得、並びに格納
+- [ ] 動的にcomponentsを呼び出す
+- [ ] ライフサイクルの理解
+- [ ] computedで実際に機能を作ってみる
+- [ ] middlewareによるリダイレクトと状態管理
 
 
 # 時間があればやりたいこと
 
-- [] animationの追加
-- [] testの練習
+- [ ] animationの追加
+- [ ] testの練習
 
 # nuxt-study
 
