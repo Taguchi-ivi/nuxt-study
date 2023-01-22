@@ -26,6 +26,14 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
+  // serverMiddleware add [study]
+  serverMiddleware: ['~/server-middleware/logger'],
+
+  // RouteMiddleware add [study]
+  // router: {
+  //     middleware: 'sample'
+  // },
+
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
