@@ -8,13 +8,24 @@
         <my-table user-name="PropsUser"></my-table>
         <p>{{ title }}</p>
         <my-form @todo-submit="todoAdd" />
+        <my-test-slot>hello world slot</my-test-slot>
+        <v-text-field
+            label="Main input"
+            hide-details="auto"
+            v-model="message"
+        >
+        </v-text-field>
+        <my-form-inject />
     </div>
 </template>
 
 <script>
+import { computed } from 'vue'
 import MyTable from '~/components/Atoms/MyTable'
 import MyCounter from '~/components/Atoms/MyCounter'
 import MyForm from '~/components/Atoms/MyForm'
+import MyFormInject from '~/components/Atoms/MyFormInject'
+import MyTestSlot from '~/components/Atoms/MyTestSlot'
 
 
 export default {
@@ -22,12 +33,24 @@ export default {
     components: {
         MyTable,
         MyCounter,
-        MyForm
+        MyForm,
+        MyFormInject,
+        MyTestSlot
     },
+    // provide: {
+    //     message: 'provider-message'
+    // },
     data() {
         return {
             current: 0,
-            title: ''
+            title: '',
+            message: '',
+        }
+    },
+    provide() {
+        return {
+            // message: this.message
+            message: computed(() => this.message)
         }
     },
     methods: {
@@ -40,3 +63,7 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+
+</style>
