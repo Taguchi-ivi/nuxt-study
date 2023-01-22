@@ -16,3 +16,28 @@
 
 // ちなみにCookieに保存したデータを取り出したいときも
 // const cookie = req.headers.cookie
+
+export const state = () => ({
+    // userLoginFlg: false
+    // userLoginFlg: null
+    userLoginFlg: false
+})
+
+export const getters = {
+    getUserLoginFlg: state => state.userLoginFlg
+}
+
+export const mutations = {
+    // increment(state) {
+    //     state.userLoginFlg = !state.userLoginFlg
+    // }
+    changeLoginMutations(state, userLoginFlg){
+        state.userLoginFlg = !state.userLoginFlg;
+    }
+}
+
+export const actions = {
+    changeLoginFlg({ commit }, userLoginFlg) {
+        commit("changeLoginMutations", userLoginFlg)
+    }
+}

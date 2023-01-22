@@ -9,14 +9,14 @@
 - [x] componentsの親子間の通信 (props,emit?)
 - [x] provide/injectの理解とvuexとの違いを理解
 - [x] ライフサイクルの理解
+- [x] vuexの値の取得、並びに格納
+- [x] middlewareによるリダイレクトと状態管理
 
 
 # まだできていないこと
 
-- [ ] vuexの値の取得、並びに格納
 - [ ] 動的にcomponentsを呼び出す
 - [ ] computedで実際に機能を作ってみる
-- [ ] middlewareによるリダイレクトと状態管理
 
 
 # 時間があればやりたいこと

@@ -10,3 +10,11 @@
 //     ? context.req.headers['user-agent']
 //     : navigator.userAgent
 // }
+
+export default function ({store, redirect}) {
+    console.log('middleware解析中!!');  // { store:..., params..., }
+    // console.log(context) // { store:..., params..., }
+    if (!store.state.userLoginFlg) {
+        return redirect('/auth/signup')
+    }
+}

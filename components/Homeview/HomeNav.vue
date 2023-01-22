@@ -14,10 +14,10 @@
             </nuxt-link>
         </li>
         <li>
-            <nuxt-link to="lifecycle">lifeCycle pageへ</nuxt-link>
+            <nuxt-link to="/lifecycle">lifeCycle pageへ</nuxt-link>
         </li>
         <li>
-            <nuxt-link to="about">about pageへ</nuxt-link>
+            <nuxt-link to="/about">about pageへ</nuxt-link>
         </li>
     </div>
 </template>
