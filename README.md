@@ -7,12 +7,12 @@
 - [x] 動的なサイトの作成
 - [x] 動的にnuxt-linkを作成する
 - [x] componentsの親子間の通信 (props,emit?)
+- [x] provide/injectの理解とvuexとの違いを理解
 
 
 # まだできていないこと
 
 - [ ] vuexの値の取得、並びに格納
-- [ ] provide/injectの理解とvuexとの違いを理解
 - [ ] 動的にcomponentsを呼び出す
 - [ ] ライフサイクルの理解
 - [ ] computedで実際に機能を作ってみる
